@@ -33,18 +33,18 @@ Leao
 ```
 
 A determinação do signo deverá ser feita de acordo com as seguintes datas:
-    * Capricornio - Dec 22 a Jan 19
-    * Aquario - Jan 20 a Feb 18
-    * Peixes - Feb 19 a Mar 20
-    * Carneiro - Mar 21 a Apr 19
-    * Touro - Apr 20 a May 20
-    * Gemeos - May 21 a Jun 20
-    * Carangueijo - Jun 21 a Jul 22
-    * Leao - Jul 23 a Aug 22
-    * Virgem - Aug 23 a Sep 22
-    * Balanca - Sep 23 a Oct 22
-    * Escorpiao - Oct 23 a Nov 21
-    * Sagitario - Nov 22 a Dec 21 
+    - Capricornio - Dec 22 a Jan 19
+    - Aquario - Jan 20 a Feb 18
+    - Peixes - Feb 19 a Mar 20
+    - Carneiro - Mar 21 a Apr 19
+    - Touro - Apr 20 a May 20
+    - Gemeos - May 21 a Jun 20
+    - Carangueijo - Jun 21 a Jul 22
+    - Leao - Jul 23 a Aug 22
+    - Virgem - Aug 23 a Sep 22
+    - Balanca - Sep 23 a Oct 22
+    - Escorpiao - Oct 23 a Nov 21
+    - Sagitario - Nov 22 a Dec 21 
 
 ### Opção 'r'
 Consoante a idade, o programa deverá mostrar uma das seguintes mensagens
