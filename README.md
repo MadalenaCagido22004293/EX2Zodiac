@@ -5,6 +5,7 @@ Além disso, o programa deverá também determinar se a pessoa está apta para t
 
 ## Descrição do problema
 O programa recebe um caracter e 6 inteiros. O caracter serve para escolher qual o output a apresentar:
+
     - 'a' - idadade
     - 'z' - signo do zodiaco
     - 'r' - informação sobre se está apto para trabalhar ou elegível para a reforma
@@ -20,30 +21,42 @@ a 05 08 2015 01 01 2020
 O programa deverá devolver a idade do utilizador
 Exemplo:
 ```bash
-a 05 08 2015 01 01 2020
-4 anos
+a 11 1 1970 2 6 2020
+50 anos
 ```
 ### Opção 'z'
 O programa deverá devolver o signo do zodiaco (Capricornio, Aquario, Peixes, Carneiro, Touro, Gemeos, Carangueijo, Leao, Virgem, Balanca, Escorpiao, Sagitario).
 
 Exemplo:
 ```bash
-z 05 08 2015 01 01 2020
-Leao
+z 18 02 1930 12 10 2020
+Aquario
 ```
 
 A determinação do signo deverá ser feita de acordo com as seguintes datas:
+
     - Capricornio - Dec 22 a Jan 19
+    
     - Aquario - Jan 20 a Feb 18
+    
     - Peixes - Feb 19 a Mar 20
+    
     - Carneiro - Mar 21 a Apr 19
+    
     - Touro - Apr 20 a May 20
-    - Gemeos - May 21 a Jun 20
+    
+    - Gemeos - May 21 a Jun 2r
+    
     - Carangueijo - Jun 21 a Jul 22
+    
     - Leao - Jul 23 a Aug 22
+    
     - Virgem - Aug 23 a Sep 22
+    
     - Balanca - Sep 23 a Oct 22
+    
     - Escorpiao - Oct 23 a Nov 21
+    
     - Sagitario - Nov 22 a Dec 21 
 
 ### Opção 'r'
@@ -63,18 +76,18 @@ A idade mínima para se considerar Apto para trabalhar é de 16 anos e a idade m
 
 Exemplo:
 ```bash
-z 05 08 2015 01 01 2020
-Nao tem idade para trabalhar
+r 01 01 1999 01 01 2020
+Apto para trabalhar
 ```
 
 ### Opção 't'
 O programa deverá mostrar toda a informação. Exemplo:
 Exemplo:
 ```bash
-z 05 08 2015 01 01 2020
-4 years old
-Leo
-Nao tem idade para trabalhar
+t 13 5 1967 30 9 2020
+53 anos
+Touro
+Apto para trabalhar
 ```
 
 ## Mensagens de erro
@@ -87,5 +100,7 @@ Nota: considera-se ano inválido se for inferior a 1900 ou superior a 2020. Cons
 inválido se for menor que 1 ou superior ao numero máximo de dias de cada mês.
 
 O programa deverá também validar as datas relativamente aos dias de cada mês e especialmente em relação aos dias do mês de fevereiro. Para isso deverá tomar em consideração se o no é bissexto ou não.
+
+Se o utilizador introduzir uma data actual inferior à data de nascimento, o programa deverá imprimir a mensagem ```Data actual inferior a data de nascimento```.
 
 O programa deverá sempre validar datas antes de qualquer outra operação. 
