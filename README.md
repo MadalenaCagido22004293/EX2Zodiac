@@ -83,6 +83,9 @@ Se o utilizador introduzir uma data de nascimento inválida o programa deverá r
 
 Se o utilizador introduzir a data atual inválida o programa deverá responder "Data actual invalida".
 
-Nota: considera-se ano inválido se for inferior a 1919 ou superior a 2020. Considera-se o dia
+Nota: considera-se ano inválido se for inferior a 1900 ou superior a 2020. Considera-se o dia
 inválido se for menor que 1 ou superior ao numero máximo de dias de cada mês.
 
+O programa deverá também validar as datas relativamente aos dias de cada mês e especialmente em relação aos dias do mês de fevereiro. Para isso deverá tomar em consideração se o no é bissexto ou não.
+
+O programa deverá sempre validar datas antes de qualquer outra operação. 
