@@ -91,3 +91,36 @@ O programa deverá também validar as datas relativamente aos dias de cada mês 
 Se o utilizador introduzir uma data actual inferior à data de nascimento, o programa deverá imprimir a mensagem ```Data actual inferior a data de nascimento```.
 
 O programa deverá sempre validar datas antes de qualquer outra operação. 
+
+# Entrega
+O programa deverá ser submetido na plataforma PANDORA [(2)](#ref2) até às *23:59 do dia 27/11/2020*. O desenvolvimento do programa deverá ser realizado individualmente. 
+
+## Honestidade Académica
+
+Nesta disciplina, espera-se que cada aluno siga os mais altos padrões de honestidade académica. Trabalhos que sejam identificados como cópias serão anulados e os alunos envolvidos terão nota zero - quer tenham copiado, quer tenham deixado copiar.
+Para evitar situações deste género, recomendamos aos alunos que nunca partilhem ou mostrem o seu código.
+A decisão sobre se um trabalho é uma cópia cabe exclusivamente aos docentes da unidade curricular.
+Os alunos são encorajados a discutir os problemas com outros alunos mas não deverão, no entanto, copiar códigos, documentação e relatórios de outros alunos. Em nenhuma circunstância deverão partilhar os seus próprios códigos, documentação e relatórios. De facto, não devem sequer deixar códigos, documentação e relatórios em computadores de uso partilhado.
+
+*Todos os entregues serão comparados utilizando um algoritmo de detecção de plágio [(3)](#ref3) que automaticamente atribui uma percentagem de semelhança entre os trabalhos. Este algoritmo é extremamente robusto e será utilizado nesta disciplina em todos os trabalhos ao longo do ano.* 
+
+## Referências
+
+<a name="ref1"></a>
+
+* (1) Pereira, A. (2017). C e Algoritmos, 2ª edição. Sílabo.
+
+<a name="ref2"></a>
+
+* (2)  PANDORA - Yet Another Automated Assessment Tool, https://saturn.ulusofona.pt/.
+
+<a name="ref3"></a>
+
+* (3)  Saul Schleimer, Daniel S. Wilkerson, and Alex Aiken. 2003. Winnowing: local algorithms for document fingerprinting. In Proceedings of the 2003 ACM SIGMOD international conference on Management of data (SIGMOD '03). Association for Computing Machinery, New York, NY, USA, 76–85. DOI:https://doi.org/10.1145/872757.872770
+
+## Metadados
+
+* Autor: [Pedro Serra]
+* Instituição: [Universidade Lusófona de Humanidades e Tecnologias][ULHT]
+
+
